@@ -1,0 +1,138 @@
+
+/* Configurações da página */
+
+html {
+      scroll-behavior: smooth;
+  }
+  
+  body {
+      font-family: Arial, sans-serif;
+  }
+  
+  section {
+      scroll-margin-top: 70px;
+  }
+  
+  /* Menu */
+  
+  .navbar {
+      background-color: #21152e;
+  }
+  
+  .navbar-brand {
+      color: #c69aff !important;
+      font-weight: bold;
+  }
+  
+  /* Parte inicial */
+  
+  .hero {
+      min-height: 85vh;
+      padding: 100px 20px 40px;
+      display: flex;
+      justify-content: center;
+      color: white;
+  
+      background: linear-gradient(
+          to right,
+          #30203e,
+          #58347a
+      );
+  }
+  
+  .hero h1 {
+      font-size: 45px;
+      font-weight: bold;
+      margin-bottom: 20px;
+  }
+  
+  .hero p {
+      font-size: 18px;
+      max-width: 600px;
+      margin: 0 auto 25px;
+  }
+  
+  /* Contagem */
+  
+  .contador {
+      background-color: #33213f;
+      color: white;
+  }
+  
+  #contagem {
+      color: #d4aaff;
+  }
+  
+  /* Títulos */
+  
+  h2 {
+      font-weight: bold;
+  }
+  
+  /* Texto sobre */
+  
+  .texto-sobre {
+      max-width: 750px;
+      line-height: 1.7;
+      margin: auto;
+  }
+  
+  /* Cards */
+  
+  .card {
+      border-radius: 10px;
+      transition: 0.2s;
+  }
+  
+  .card:hover {
+      transform: translateY(-4px);
+  }
+  
+  .card-body {
+      padding: 25px;
+  }
+  
+  /* Galeria */
+  
+  .carousel img {
+      width: 100%;
+      height: 380px;
+      object-fit: cover;
+      border-radius: 8px;
+  }
+  
+  /* Formulário */
+  
+  .formulario {
+      max-width: 600px;
+  }
+  
+  /* Rodapé */
+  
+  footer {
+      background-color: #21152e;
+      color: white;
+  }
+  
+  /* Celular */
+  
+  @media (max-width: 768px) {
+  
+      .hero h1 {
+          font-size: 32px;
+      }
+  
+      .hero p {
+          font-size: 16px;
+      }
+  
+      .carousel img {
+          height: 230px;
+      }
+  
+      #contagem {
+          font-size: 25px;
+      }
+  
+  }
+  
